@@ -1,0 +1,175 @@
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-container {
+    background-color: white;
+    flex: 1;
+}
+
+.calendar {
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar-header {
+    font-size: 1.6em;
+}
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-left: 5px;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 40px;
+    padding: 4px;
+}
+
+.week-day {
+    font-size: 0.7em;
+    color: #808080;
+    font-weight: bold;
+}
+
+.day {
+    font-size: 0.8em;
+}
+
+.day {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.current-day {
+    background-color: rgb(130, 173, 171);
+    width: 10px;
+    height: 10px;
+    line-height: 35px;
+    color: white;
+    border-radius: 50%;
+}
+.selected-day {
+    background-color:	#20B2AA;
+    width: 10px;
+    height: 10px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: white;
+}
+
+.month-popup {
+    position: absolute;
+    padding: 5px;
+    background: white;
+    border: 2px solid skyblue;
+}
+
+.month-popup div {
+    padding: 0.3em;
+}
+
+.nav-month {
+    position: absolute;
+    top: 0.6em;
+    font-size: 0.6em;
+    right:3px;
+}
+
+.prev {
+}
+
+.next {
+}
+
+.editor-year {
+    max-width: 3.6em;
+}
+
+.label-month,
+.label-year {
+    font-size: 0.6em;
+    padding-left: 0px;
+}
+
+.label-month {
+    cursor: pointer;
+    padding-left: 60px;
+}
+.left {
+    margin-right: 250px;
+}
+.date-box{
+    background-color: #20B2AA;
+    width: 302px;
+    height: 287px;
+    flex: 1;
+    margin-top: 50px;
+    color: white;
+    
+}
+.full-container {
+    display: flex;
+    width: 620px;
+    margin-left: 400px;
+    height: auto;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 100px;
+    background-color: grey;
+    padding: 37px;
+    padding-top: 0px;
+    align-items: stretch;
+}
+.dateBox-day {
+    padding-bottom: 16px;
+    background-color: #008B8B;
+    font-size: 20px;
+    height: 14px;
+    padding-top: 13px;
+}
+.dateBox-date {
+    padding-bottom: 16px;
+    font-size: 75px;
+    height: 42px;
+    padding-top: 13px;
+    font-style: italic;
+    font-family: serif;
+}
+.dateBox-month {
+    font-style: italic;
+    margin-bottom: 18px;
+    margin-top: 35px;
+    font-size: 25px;
+}
+.dateBox-year {
+    font-size: 31px;
+    font-style: italic;
+    opacity: 0.5;
+}
+.buttonsDiv {
+    padding: 10px;
+    display: flex;
+    background-color: white;
+}
+.buttonStyle {
+    border: none;
+    font-size: small;
+    cursor: pointer ;
+    flex: 1;
+    
+}
+.saveBtnStyle {
+}
